@@ -16,7 +16,10 @@ public class Ex7{
         
         for(i=0; i <=9; i++){
             
-            System.out.println((num * i+1) + num + " x " + (i+1) + " = ";
+            int calc;
+            
+            calc = num * (i+1);
+            System.out.println(num + " x " + (i+1) + " = " + calc);
             
         }
         
