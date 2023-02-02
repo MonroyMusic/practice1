@@ -14,9 +14,23 @@ public class CondicionIf{
         
         age = scan.nextInt();
         
-        if(age > 18){
+        if(age >= 18){
             
             System.out.println("El Usuario es Mayor de Edad");
+            
+        }else{
+            
+            System.out.println("El Usuario es Menor de Edad");
+            
+        }
+        
+        if(age >= 16 && age <= 18){
+            
+            System.out.println("El jugador puede participar con la Sub-18");
+            
+        }else{
+            
+            System.out.println("El jugador no puede participar en la Sub-18");
             
         }
         
