@@ -36,7 +36,7 @@ public class Promedio{
             
             System.out.println("El alumno aprobo con un promedio bueno de: " + prom);
             
-        }else if(prom >= 90){
+        }else if(prom >= 90 && prom<=100){
             
             System.out.println("El alumno aprobo con un promedio sobresaliente de: " + prom);
             
