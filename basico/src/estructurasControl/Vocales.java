@@ -16,24 +16,13 @@ public class Vocales{
         
         switch(vocal){
             
-            case 'a': case 'A': 
-                    System.out.println("Arandano, Annona, Aguacate, "
-                            + "Albaricoque, Almendra");
-                    break;
-            case 'e': case 'E': 
-                    System.out.println("Elote, Ejote");
-                    break;
-            case 'i': case 'I': 
-                    System.out.println("Icaco, Ilama, Imbe");
-                    break;  
-            case 'o': case 'O': 
-                    System.out.println("Olivias, Oroblanco");
-                    break;
-            case 'u': case 'U': 
-                    System.out.println("Uvas, ...");
-                    break;
-            default: System.out.println("Ingreso un dato no valido");
-                    break;
+            case 'a', 'A' -> System.out.println("Arandano, Annona, Aguacate, "
+                    + "Albaricoque, Almendra");
+            case 'e', 'E' -> System.out.println("Elote, Ejote");
+            case 'i', 'I' -> System.out.println("Icaco, Ilama, Imbe");
+            case 'o', 'O' -> System.out.println("Olivias, Oroblanco");
+            case 'u', 'U' -> System.out.println("Uvas, ...");
+            default -> System.out.println("Ingreso un dato no valido");
                     
         }
         

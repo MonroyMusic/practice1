@@ -8,6 +8,8 @@ public class Ex4{
         
         int a, b, c, d, e, f, g, h, i, opc;
         
+        double result;
+        
         Scanner scan = new Scanner(System.in);
         
         System.out.println("a) 3/2 + 4/3");
@@ -21,6 +23,34 @@ public class Ex4{
         System.out.println("i) (m + (n/p)) / (q + (r/s))");
         System.out.println("j) (3a + b) / (c - (d+5e/(f + g/2h))");
         System.out.println("k) (a^2+2ab+b^2) / (1/(x^2))+2");
+        
+        System.out.println("-------------------------");
+        
+        System.out.print("Que ecuacion desea realizar?: ");
+        
+        opc = scan.next().charAt(0);
+        
+        switch (opc) {
+            case 'a', 'A' -> {
+                
+                result = (3/2) + (4/3);
+                
+                System.out.println("3/2 + 4/3 = " + result);                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         
+                
+            }
+            case 'b', 'B' -> {
+                
+                System.out.println("Ingrese los valores de x y de y:");
+                
+                a = scan.nextInt();
+                b = scan.nextInt();
+                
+                result = (1/(a-5)) - (3 * a * b/4);
+                
+                System.out.println("1/(x-5) - 3*x*y/4 = " + result);
+            }
+            default -> System.out.println("Ingreso un dato no valido");
+        }
         
     }
     
